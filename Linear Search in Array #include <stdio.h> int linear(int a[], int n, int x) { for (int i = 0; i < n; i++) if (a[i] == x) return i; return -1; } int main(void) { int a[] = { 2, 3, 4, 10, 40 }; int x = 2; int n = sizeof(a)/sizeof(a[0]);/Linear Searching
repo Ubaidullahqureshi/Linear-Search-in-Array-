@@ -16,11 +16,19 @@
   
   
   }
-int main(void)
-{
-int a[] = { 2, 3, 4, 10, 40 };
-int x = 2;
-int n = sizeof(a) / sizeof(a[0]);
+  
+  
+  
+    
+    int main(void)
+    
+    {
+        
+        int a[] = { 2, 3, 4, 10, 40 };
+        
+        int x = 2;
+        
+        int n = sizeof(a) / sizeof(a[0]);
 // Function call
 int result = linear(a, n, x);
 if(result == -1)
